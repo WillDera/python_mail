@@ -13,7 +13,7 @@ receiver_email = "fredapaul58@gmail.com"
 #     This message is sent from Python.
 #     """
 message = MIMEMultipart("alternative")
-message["Subject"] = "multipart test"
+message["Subject"] = "An Email From Python"
 message["From"] = sender_email
 message["To"] = receiver_email
 
